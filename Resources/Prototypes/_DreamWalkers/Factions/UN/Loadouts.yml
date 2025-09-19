@@ -1,24 +1,25 @@
-- type: entity
-  id: CrateUNLoadout
-  parent: CrateGenericSteel
-  name: UN loadout crate
-  description: Contains one full kit for UN infantry members
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterUNArmorStandard
-        amount: 1
-      - id: ClothingHeadUNHelmetStandard
-        amount: 1
-      - id: ClothingUniformUNUniformWoodland
-        ammount: 1
-      - id: ClothingHandsGlovesCombat
-        ammount: 1
-      - id: WeaponRifleUNAug
-        ammount: 1
-      - id: MagazineRifleAug
-        ammount: 5
-      - id: ClothingBeltMilitaryWebbing
-        ammount: 1
-      - id: ClothingShoesBootsJack
-        ammount: 1
+# Trooper
+- type: startingGear
+  id: UNTrooper
+  equipment:
+    head: ClothingHeadUNHelmet
+    outerClothing: ClothingOuterUNArmor
+    jumpsuit: ClothingUniformUNUniform
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack
+    back: WeaponRifleUNAug
+    id: FactionsUNCardTrooper
+    belt: ClothingUNBeltMilitaryWebbingTrooperFilled
+
+# Squad Leader
+- type: startingGear
+  id: UNSquadLeader
+  equipment:
+    head: ClothingHeadUNBeret
+    outerClothing: ClothingOuterUNArmor
+    jumpsuit: ClothingUniformUNUniform
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJack
+    back: WeaponRifleUNAug
+    id: FactionsUNCardCommand
+    belt: ClothingUNBeltMilitaryWebbingTrooperFilled

@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _DreamWalkers/Factions/UN/Objects/Weapons/aug.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 7
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
