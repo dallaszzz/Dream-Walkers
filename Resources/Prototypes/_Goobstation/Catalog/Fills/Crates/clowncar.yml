@@ -15,7 +15,6 @@
     contents:
     - id: VehicleClowncarAntag
     - id: BikeHorn
-    - id: ClumsyImplanter
 
 - type: entity
   id: CrateFunClownCarNukieUplink
