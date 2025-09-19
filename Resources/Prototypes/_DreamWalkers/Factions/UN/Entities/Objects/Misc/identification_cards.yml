@@ -37,6 +37,7 @@
     state: command
   - type: Access
     tags:
+    - FactionsUNTrooper
     - FactionsUNCommand
   - type: NanoChatCard
     listNumber: false
