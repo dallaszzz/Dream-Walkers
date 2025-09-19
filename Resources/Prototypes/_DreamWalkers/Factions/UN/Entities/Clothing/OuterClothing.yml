@@ -1,13 +1,13 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
-  id: ClothingOuterUNArmorStandard
+  id: ClothingOuterUNArmor
   name: UN armor vest
   description: A standard issue armor vest for the united nations military.
   components:
   - type: Sprite
-    sprite: _DreamWalkers/Factions/UN/Clothing/un_standard_armor.rsi
+    sprite: _DreamWalkers/Factions/UN/Clothing/un_armor.rsi
   - type: Clothing
-    sprite: _DreamWalkers/Factions/UN/Clothing/un_standard_armor.rsi
+    sprite: _DreamWalkers/Factions/UN/Clothing/un_armor.rsi
   - type: Armor
     traumaDeductions:
       Dismemberment: 0.25
