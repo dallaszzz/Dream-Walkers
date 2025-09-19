@@ -131,7 +131,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkExplosiveGrenadeNukeops
@@ -147,7 +146,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkSmokeGrenadeNukeops
@@ -163,7 +161,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkSyndieMiniBombNukeops
@@ -179,7 +176,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkSupermatterGrenadeNukeops
@@ -195,7 +191,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkWhiteholeGrenadeNukeops
@@ -211,7 +206,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkC4Nukeops
@@ -227,7 +221,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkC4BundleNukeops
@@ -243,7 +236,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkEmpGrenadeNukeops
@@ -259,7 +251,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkClusterGrenadeNukeops
@@ -275,7 +266,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkGrenadeShrapnelNukeops
@@ -291,7 +281,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkGrenadeIncendiaryNukeops
@@ -307,21 +296,19 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 # Weaponry
 
-# Re-enablede by dreamwalker
-- type: listing
-  id: UplinkEswordDouble
-  name: uplink-esword-double-name
-  description: uplink-esword-double-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
-  productEntity: EnergySwordDouble
-  cost:
-    Telecrystal: 80
-  categories:
-  - UplinkWeaponry
+# - type: listing
+#   id: UplinkEswordDouble
+#   name: uplink-esword-double-name
+#   description: uplink-esword-double-desc
+#   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
+#   productEntity: EnergySwordDouble
+#   cost:
+#     Telecrystal: 80
+#   categories:
+#   - UplinkWeaponry
 
 - type: listing
   id: UplinkContractorBaton
@@ -531,7 +518,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkClothingHeadHelmetSwatSyndicate
@@ -559,7 +545,6 @@
     whitelist:
       tags:
       - NukeOpsMedicUplink
-      - SurplusBundle # Dream Walker
   - !type:ListingLimitedStockCondition
     stock: 1
 
@@ -579,7 +564,6 @@
     whitelist:
       tags:
       - NukeOpsCommanderUplink
-      - SurplusBundle # Dream Walker
   - !type:ListingLimitedStockCondition
     stock: 1
 
@@ -714,7 +698,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkMobRoachMicrobomb
@@ -741,7 +724,6 @@
     whitelist:
     - Botanist
     - Zookeeper
-    - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkDartGun
@@ -756,7 +738,6 @@
   - !type:BuyerDepartmentCondition
     whitelist:
     - Medical
-    - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkMagazineNailgun
@@ -771,7 +752,6 @@
   - !type:BuyerDepartmentCondition
     whitelist:
     - Engineering
-    - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkPKAUpgradePressure
@@ -829,25 +809,22 @@
   categories:
   - UplinkChemicals
 
-  # Re-enabled by dreamwalker
-- type: listing
-  id: UplinkMedicalBeamGunSyndicate
-  name: uplink-medical-beam-gun-name
-  description: uplink-medical-beam-gun-desc
-  productEntity: MedicalBeamGunSyndicateBattery
-  cost:
-    Telecrystal: 100
-  categories:
-  - UplinkChemicals
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsMedicUplink
-      - SurplusBundle # Dream Walker
-  # Dreamwalker
-  # - !type:ListingLimitedStockCondition
-  #   stock: 1
+#- type: listing Removed pending rework™
+#  id: UplinkMedicalBeamGunSyndicate
+#  name: uplink-medical-beam-gun-name
+#  description: uplink-medical-beam-gun-desc
+#  productEntity: MedicalBeamGunSyndicateBattery
+#  cost:
+#    Telecrystal: 100
+#  categories:
+#  - UplinkChemicals
+#  conditions:
+#  - !type:StoreWhitelistCondition
+#    whitelist:
+#      tags:
+#      - NukeOpsMedicUplink
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: UplinkCombatMedkitPills
@@ -912,17 +889,16 @@
 
 # I don't know if this is balanced, so i'm just going to leave it commented out.
 # If you want to add this in the future, feel free. - Sol
-# Turned back on by dreamwalker 
-- type: listing
-  id: UplinkStypticStimulatorImplanter
-  name: uplink-styptic-stimulator-implant-name
-  description: uplink-styptic-stimulator-implant-desc
-  icon: { sprite: Objects/Specific/Medical/medical.rsi, state: brutepack }
-  productEntity: StypticStimulatorImplanter
-  cost:
-    Telecrystal: 40
-  categories:
-  - UplinkImplants
+#- type: listing
+#  id: UplinkStypticStimulatorImplanter
+#  name: uplink-styptic-stimulator-implant-name
+#  description: uplink-styptic-stimulator-implant-desc
+#  icon: { sprite: Objects/Specific/Medical/medical.rsi, state: brutepack }
+#  productEntity: StypticStimulatorImplanter
+#  cost:
+#    Telecrystal: 40
+#  categories:
+#  - UplinkImplants
 
 - type: listing
   id: UplinkKravMagaImplanter
@@ -1175,12 +1151,11 @@
     Telecrystal: 25 # Same as what it was before being removed
   categories:
   - UplinkDisruption
-  # Dreamwalker
-  # conditions:
-  # - !type:BuyerWhitelistCondition
-  #   blacklist:
-  #     components:
-  #     - SurplusBundle
+  conditions:
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
 
 - type: listing
   id: UplinkSyndicateWeaponModuleAdvanced
@@ -1307,7 +1282,6 @@
       tags:
       - NukeOpsUplink
       - ContravendUplink
-      - SurplusBundle # Dream Walker
 
 # Martial Arts
 - type: listing
@@ -1404,7 +1378,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 - type: listing
   id: UplinkRPOA
@@ -1432,7 +1405,6 @@
     whitelist:
       tags:
       - NukeOpsUplink
-      - SurplusBundle # Dream Walker
 
 # Misc
 - type: listing

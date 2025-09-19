@@ -7,19 +7,3 @@
     Telecrystal: 5
   categories:
   - UplinkPointless
-
-# Just for super surplus
-
-- type: listing
-  id: UplinkPulserifle
-  name: Pulserifle
-  description: "Lucky man."
-  productEntity: WeaponPulseRifle
-  cost:
-    Telecrystal: 400
-  categories:
-  - UplinkWeaponry
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-    - SurplusBundle
