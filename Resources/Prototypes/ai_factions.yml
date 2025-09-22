@@ -48,6 +48,7 @@
     - AllHostile
     - Heretic # goob edit - heretics
     - Blob # Goobstation - Blob
+    - UN # Dreamwalkers
   friendly: # Goobstation
     - Wizard
     - PirateFaction # goob - pirates
@@ -105,6 +106,7 @@
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkers
   friendly: # Goobstation
     - Wizard
 
@@ -127,6 +129,7 @@
   - Blob # Goobstation - Blob
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: Xeno
@@ -144,6 +147,7 @@
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkes
   friendly: # Goobstation
     - Wizard
 
@@ -165,6 +169,7 @@
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
   - Xenoborg
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: Revolutionary
@@ -178,6 +183,7 @@
   - Wizard # Goobstation - wizard
   - PirateFaction # goob - pirates
   - Xenoborg
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: AllHostile
@@ -198,6 +204,7 @@
   - Blob # Goobstation - Blob
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkes
 
 # Balloons Factions Edit:
 - type: npcFaction  
@@ -228,3 +235,4 @@
   - SimpleHostile 
   - AllHostile
   - Blob # Goobstation - Blob
+  - UN # Dreamwalkes
