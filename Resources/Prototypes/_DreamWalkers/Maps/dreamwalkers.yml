@@ -6,13 +6,13 @@
   maxPlayers: 85
   stations:
     DreamWalkers:
-      stationProto: StandardNanotrasenStation
+      stationProto: DreamWalkersStation
       components:
         - type: StationNameSetup
           mapNameTemplate: "DreamWalkers"
         - type: StationJobs
           availableJobs:
-            Captain: [ -1, -1 ]
+            DreamTeam: [ -1, -1 ]
         - type: StationBlobConfig
           stageBegin: 20
           stageCritical: 50
