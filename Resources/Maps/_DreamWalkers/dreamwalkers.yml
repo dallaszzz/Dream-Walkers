@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/23/2025 17:15:21
-  entityCount: 1322
+  time: 09/25/2025 02:17:13
+  entityCount: 1323
 maps:
 - 1
 grids:
@@ -518,11 +518,13 @@ entities:
   - uid: 24
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 5.5,3.5
       parent: 2
   - uid: 46
     components:
     - type: Transform
+      rot: 3.141592653589793 rad
       pos: 3.5,3.5
       parent: 2
 - proto: AirlockMaint
@@ -5658,6 +5660,13 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 12.5,-1.5
+      parent: 2
+- proto: StationAnchor
+  entities:
+  - uid: 1323
+    components:
+    - type: Transform
+      pos: -8.5,-31.5
       parent: 2
 - proto: SteelBench
   entities:
