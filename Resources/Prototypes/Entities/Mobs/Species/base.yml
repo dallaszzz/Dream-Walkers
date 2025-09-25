@@ -420,7 +420,7 @@
       types:
         Blunt: 5
   - type: SleepEmitSound
-  - type: SSDIndicator
+  # - type: SSDIndicator # Dreamwalkers change - disabled to save some work for GMs and because i cant find a better way to disable this thing
   - type: StandingState
   - type: Dna
   - type: Scent # Einstein Engines

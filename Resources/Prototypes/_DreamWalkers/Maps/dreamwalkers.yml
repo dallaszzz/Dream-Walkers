@@ -1,0 +1,19 @@
+- type: gameMap
+  id: DreamWalkers
+  mapName: 'DreamWalkers'
+  mapPath: /Maps/_DreamWalkers/dreamwalkers.yml
+  minPlayers: 0
+  maxPlayers: 85
+  stations:
+    DreamWalkers:
+      stationProto: DreamWalkersStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "DreamWalkers"
+        - type: StationJobs
+          availableJobs:
+            DreamTeam: [ -1, -1 ]
+        - type: StationBlobConfig
+          stageBegin: 20
+          stageCritical: 50
+          stageTheEnd: 100

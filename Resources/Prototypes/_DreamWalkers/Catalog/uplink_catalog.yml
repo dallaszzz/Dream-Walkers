@@ -1,0 +1,9 @@
+- type: listing
+  id: UplinkBoombox
+  name: Boombox
+  description: "For when you want to shitpost to the whole station."
+  productEntity: Boombox
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkPointless

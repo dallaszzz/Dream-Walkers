@@ -49,6 +49,7 @@
     - Heretic # goob edit - heretics
     - Blob # Goobstation - Blob
     - Shadowling # Einstein Engines - Shadowlings
+    - UN # Dreamwalkers
   friendly: # Goobstation
     - Wizard
     - PirateFaction # goob - pirates
@@ -107,6 +108,7 @@
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkers
   friendly: # Goobstation
   - Wizard
   - Shadowling # Einstein Engines - Shadowlings
@@ -131,6 +133,7 @@
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
   - Shadowling # Einstein Engines - Shadowlings
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: Xeno
@@ -148,6 +151,7 @@
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkes
   friendly: # Goobstation
     - Wizard
 
@@ -170,6 +174,7 @@
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
   - Xenoborg
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: Revolutionary
@@ -184,6 +189,7 @@
   - Wizard # Goobstation - wizard
   - PirateFaction # goob - pirates
   - Xenoborg
+  - UN # Dreamwalkes
 
 - type: npcFaction
   id: AllHostile
@@ -205,6 +211,7 @@
   - Shadowling # Einstein Engines - Shadowlings
   - Wizard # goob edit - wizard
   - PirateFaction # goob - pirates
+  - UN # Dreamwalkes
 
 # Balloons Factions Edit:
 - type: npcFaction  
@@ -236,3 +243,4 @@
   - AllHostile
   - Blob # Goobstation - Blob
   - Shadowling # Einstein Engines - Shadowlings
+  - UN # Dreamwalkes

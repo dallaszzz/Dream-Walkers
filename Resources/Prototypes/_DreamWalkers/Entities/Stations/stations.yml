@@ -1,0 +1,10 @@
+- type: entity
+  id: DreamWalkersStation
+  parent:
+    - BaseStation
+    - BaseStationJobsSpawning
+    - BaseStationRecords
+
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Transform
