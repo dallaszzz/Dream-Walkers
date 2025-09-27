@@ -213,7 +213,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
 
     private void OnGridInit(GridInitializeEvent ev)
     {
-        if (HasComp<MapComponent>(ev.EntityUid))
+        if (HasComp<MapComponent>(ev.EntityUid) || HasComp<RoofComponent>(ev.EntityUid)) // DreamWalkers change
             return;
 
         EnsureComp<ShuttleComponent>(ev.EntityUid);
